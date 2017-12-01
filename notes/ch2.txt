@@ -1,0 +1,7 @@
+1. Matrix-Vector Multiplication
+2. Matrix-Matrix Multiplication
+3. Inner Product and Vector Norms
+4. Matrix Norms
+5. Linear Independence: Bases
+6. The Rank of a Matrix
+	 
