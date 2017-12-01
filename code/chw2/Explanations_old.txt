@@ -1,0 +1,7 @@
+(f). 
+Dealta C are same. Dealta X are very different.
+Here, we have two different ways to calculate alpha. For the method in (b), the alpha is around 1, but fot the method in (d) the number is much smaller due to the high power in demoninator. Then we get two different matrix M (for the system MX = C, X = (x1,x2), C = (c1,c2)).
+In (c), when norm of c decreases rapidly to a very small number, the norm of x behaves the same. In (e), when norm of c decreases repidly to a very small number, the norm of x decreases the similar amount as c. But it does not affect the norm of x much since the value of the norm of x is very huge.
+
+(g).
+When the conditioning number is small, then the upper bound of the relative error under our control. If the conditioning number is large, then the relative error might be very large. In another words, the result we obtain might be far away from the correct answer.

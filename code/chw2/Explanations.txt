@@ -1,0 +1,4 @@
+(f) deltax and deltac behave almost the same. 
+
+(g) When the conditioning number is small, then the upper bound of the relative error under our control. If the conditioning number is large, then the relative error might be very large. In another words, the result we obtain might be far away from the correct answer.
+

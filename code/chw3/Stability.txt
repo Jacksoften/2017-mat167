@@ -1,0 +1,25 @@
+I assume the A in problem means the M in system equation MX=V.
+So for solving the 
+AX = C
+(A')AX= (A')C
+M = (A')A
+
+>> X = A'*A
+X =
+
+    30.29711     0.00000   -30.29711
+     0.00000   271.09687   180.77446
+   -30.29711   180.77446   150.86759
+
+>> Xp = orth(X)
+Xp =
+
+   0.047788   0.767138  -0.639699
+  -0.808304   0.405950   0.426438
+  -0.586823  -0.496693  -0.639480
+
+>> cond(X)
+ans =    3.8789e+04
+>> cond(Xp)
+ans =  1.0000
+>> diary off

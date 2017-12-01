@@ -1,0 +1,11 @@
+function result = hw2e (c)
+n = 4;
+alpha = (n+1) / 2 ^(13-n);
+M = [1, 2+alpha;1,2-alpha];
+x = inv(M) * c;
+c0 = [10;-1];
+x0 = inv(M) * c0;
+delta_x = x - x0
+xnorm = (sum(delta_x.*delta_x))^(1/2)
+delta_c = c - c0
+cnorm = (sum(delta_c.*delta_c))^(1/2)
